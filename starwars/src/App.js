@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import PeopleList from './components/PeopleList';
+//import styled from 'styled-components';
+
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -12,8 +15,13 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <div className="People">
+        <PeopleList />
+      </div>
+     
     </div>
   );
 }
 
 export default App;
+
